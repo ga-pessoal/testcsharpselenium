@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "selenium.automacao.sil", "selenium.automacao.sil\selenium.automacao.sil.csproj", "{649011C6-84A8-4651-AD08-68A86009393E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{648E8C73-D6F2-40AB-9B7D-93D0C78514BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{547265CA-55A2-41CF-A9AC-7E62A4928260}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opentech.automacao.core", "opentech.automacao.core\opentech.automacao.core.csproj", "{927163E2-9E4B-433F-BEB6-D77DF84D67B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imgs", "imgs", "{DCB68628-B44F-48E6-97ED-D7E00D0F4398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{649011C6-84A8-4651-AD08-68A86009393E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649011C6-84A8-4651-AD08-68A86009393E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649011C6-84A8-4651-AD08-68A86009393E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649011C6-84A8-4651-AD08-68A86009393E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927163E2-9E4B-433F-BEB6-D77DF84D67B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927163E2-9E4B-433F-BEB6-D77DF84D67B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927163E2-9E4B-433F-BEB6-D77DF84D67B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927163E2-9E4B-433F-BEB6-D77DF84D67B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{649011C6-84A8-4651-AD08-68A86009393E} = {648E8C73-D6F2-40AB-9B7D-93D0C78514BE}
+		{927163E2-9E4B-433F-BEB6-D77DF84D67B1} = {547265CA-55A2-41CF-A9AC-7E62A4928260}
+		{DCB68628-B44F-48E6-97ED-D7E00D0F4398} = {547265CA-55A2-41CF-A9AC-7E62A4928260}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01C8C0B7-25B0-4E8F-B31B-3A1BECFF41C4}
+	EndGlobalSection
+EndGlobal
